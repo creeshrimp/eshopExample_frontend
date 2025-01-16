@@ -3,6 +3,7 @@ name: Deploy
 # 觸發時機，當推送到分支 master 時
 on:
   push:
+    # 依照 分支名稱調整
     branches: [main]
 # 執行的工作
 jobs:
