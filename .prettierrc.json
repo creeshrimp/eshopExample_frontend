@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 130,
+  "tabWidth": 4,
+  "overrides": [
+    {
+      "files": [
+        "*.yml",
+        "*.yaml",
+        "*.json",
+        "./src/i18n/*.js",
+        "vite.config.mjs"
+      ],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": [
+        "*.vue"
+      ],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
