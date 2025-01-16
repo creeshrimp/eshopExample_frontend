@@ -105,7 +105,7 @@ const checkout = async () => {
     try {
         await apiAuth.post('/order')
         user.cart = 0
-        router.push('/order')
+        router.push('/orders')
     } catch (error) {
         console.log(error)
         createSnackbar({
